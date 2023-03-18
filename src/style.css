@@ -1,89 +1,105 @@
-*{
-    margin:0%;
-    box-sizing:border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
-nav{
-    height:70px;
-    display:flex;
-    align-items: center;
-    padding: 22px 30px;
-    background: #FFFFFF;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-
+nav {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	padding: 22px 30px;
+	background: #ffffff;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.logo{
-    width:82px;
+.logo {
+	width: 82px;
 }
 
-.image-div{
-    max-width: 100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 75px;
+.image-div {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 75px;
 }
 
-.hero-img{
-   max-width: 100%;
-    align-self:center;
+.hero-img {
+	max-width: 100%;
+	align-self: center;
 }
 
-.hero-text-div{
-    padding: 7px 32px;
+.hero-text-div {
+	padding: 7px 32px;
 }
 
-.hero-heading{
-    font-size: 36px;
-    font-weight: 600;
+.hero-heading {
+	font-size: 36px;
+	font-weight: 600;
 }
 
-.hero-text{
-    font-size:16px;
-    font-weight:400;
+.hero-text {
+	font-size: 16px;
+	font-weight: 400;
 }
 
-.hero{
-    margin-bottom: 45px;
+.hero {
+	margin-bottom: 45px;
 }
 
-.fa-solid.fa-star{
-    color: #FE395C;
-
+.fa-solid.fa-star {
+	color: #fe395c;
 }
 
-.card{
-    width:176px;
-    margin-left: 36px;
-    font-size:12px;
+.card--list {
+	padding: 36px;
+	display: flex;
+	gap: 25px;
+	overflow-x: scroll;
 }
 
-.card-img{
-    width:176px;
-     height: 235px;
-    object-fit: cover;
-    border-radius: 9px;
+.card {
+	width: 176px;
+	font-size: 12px;
+	position: relative;
 }
 
-.card--stats{
-    display: flex;
-    align-items:center;
-    margin-bottom: 6px;
-    line-height: 110%;
-    font-weight: 400;
+.card-img {
+	width: 176px;
+	height: 235px;
 }
 
-.card--stats i{
-    font-size: 12px;
-    padding:0px;
+.card--stats {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+	line-height: 110%;
+	font-weight: 400;
+	gap: 3px;
 }
 
-.gray{
-    color: #918E9B;
+.card--stats i {
+	font-size: 12px;
+	padding: 0px;
 }
 
-.bold{
-    font-weight:600;
+.gray {
+	color: #918e9b;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.card--badge{
+    position:absolute;
+    padding:5px 7px;
+    border-radius:2px;
+    left:6px;
+    background-color: white;
+    color:black;
+    font-weight:500;
+    top:6px;
+    font-size:10.25px;
 }
